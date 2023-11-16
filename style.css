@@ -263,8 +263,7 @@ footer {
     color: var(--color-palette-snow);
     text-align: center;
 }
-
-@media (max-width: 1120px){
+@media (max-width: 1120px) {
     header h1, header ul li {
         display: none;
     }
@@ -273,5 +272,8 @@ footer {
     }
    main {
     max-height: calc(77vh + 3rem);
+   }
+   .tags span:nth-child(n+5) {
+    display: none;
    }
 }
