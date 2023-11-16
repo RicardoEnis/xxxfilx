@@ -104,7 +104,7 @@ header .input-wrapper label {
 main {
     overflow-y: scroll;
     background: var(--color-palette-snow);
-    max-height: 90vh;
+    max-height: 87vh;
    
 }
 
