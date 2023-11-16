@@ -14,7 +14,7 @@
     --color-palette-medium-red: #981F24;
     --color-palette-mistyrose: #F1E0E1;
     --color-palette-snow: #F8F0F0;
-
+    
 }
 
 html,
@@ -25,6 +25,7 @@ input {
 
 body {
     font-size: 1.6rem;
+    
 }
 
 #app {
@@ -34,7 +35,7 @@ body {
 
 header {
     background: var(--color-palette-black);
-    border-radius: .6rem;
+    border-radius: 0 0 .6rem .6rem;
     padding: 1.6rem 2.4rem;
 }
 
@@ -104,6 +105,7 @@ main {
     overflow-y: scroll;
     background: var(--color-palette-snow);
     max-height: 90vh;
+   
 }
 
 nav ul {
@@ -260,4 +262,13 @@ footer {
     line-height: 180%;
     color: var(--color-palette-snow);
     text-align: center;
+}
+
+@media (max-width: 1120px){
+    header h1, header ul li {
+        display: none;
+    }
+    header, nav {
+        gap:3.2rem;
+    }
 }
