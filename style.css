@@ -271,4 +271,7 @@ footer {
     header, nav {
         gap:3.2rem;
     }
+    main {
+        max-height: calc(78vh - .4rem);
+    }
 }
